@@ -35,7 +35,7 @@ Users should be able to:
 - freeCodeCamp Challenge: [freeCodeCamp | Build a Tribute Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)
 - Sample: [CodePen](https://codepen.io/freeCodeCamp/full/zNqgVx)
 - Solution URL: [GitHub Repo](https://github.com/kolehiyolo/freecodecamp--build_a_tribute_page)
-- Live Site URL (Static): [Kolehiyolo | freeCodeCamp | Build a Tribute Page (Static)](https://your-live-site-url.com)
+- Live Site URL (Static): [Kolehiyolo | freeCodeCamp | Build a Tribute Page (Static)](https://kolehiyolo.github.io/freecodecamp--build_a_tribute_page/)
 - Live Site URL: [Kolehiyolo | freeCodeCamp | Build a Tribute Page](https://kolehiyolo.github.io/freecodecamp--build_a_tribute_page/)
 
 ## My Process
@@ -69,4 +69,4 @@ Since this project, I've picked up the great habit of using the eyedropper tool 
 - Instagram - [@kolehiyolo | Instagram](https://www.twitter.com/yourusername)
 
 ## Acknowledgments
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I suppose I would like to thank freeCodeCamp since it really changed my coding  game and introduced so much stuff that wasn't covered in the course I bought from Udemy. I got into Flexbox, Grid, Keyframes, Functional Programming and so much more. Thanks freeCodeCamp!
