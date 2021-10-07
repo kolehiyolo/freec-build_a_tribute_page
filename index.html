@@ -1,49 +1,58 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- <Meta- -->
+    <!-- * Meta Tags -->
+    <!-- Unicode -->
     <meta charset="UTF-8">
+    <!-- Internet Explorer Edge Support -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Displays site properly based on user's device -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- -Meta> -->
 
-    <!-- <Stylesheets- -->
-    <link rel="stylesheet" href="assets/stylesheets/fonts-and-colors.css">
-    <link rel="stylesheet" href="assets/stylesheets/main-styles.css">
-    <link rel="stylesheet" href="assets/stylesheets/trial-and-error.css">
-    <link rel="stylesheet" href="assets/stylesheets/media-query.css">
-    <!-- <link id="test-colors-css" rel="stylesheet" href="assets/stylesheets/test-colors.css"> -->
-    <link id="test-colors-css" rel="stylesheet" href="">
-    <!-- -Stylesheets> -->
+    <!-- * Root Colors -->
+    <!-- I set it up this way so that the theme colors can be overridden very easily through JS -->
+    <style id="theme--override">
+        :root {
+            --color--background: rgba(238, 238, 238, 1);
+            --color--background-light: rgba(255, 255, 255, 1);
 
-    <!-- <jQuery CDN- -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!-- -jQuery CDN> -->
+            --color--text: rgba(0, 0, 0, 1);
+            --color--text-link: rgba(0, 0, 255, 1);
+        }
+    </style>
 
-    <!-- <Page Title- -->
-    <title>freeCodeCamp [C01P01] - Build a Tribute Page</title>
-    <!-- -Page Title> -->
+    <!-- * Page -->
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="public/css/index.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="public/images/favicon-32x32.png">
+    <!-- Page Title -->
+    <title>freeCodeCamp | Build a Tribute Page (Static)</title>
 </head>
 
 <body>
-    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
-    <section id="main">
-        <header>
-            <h1 id="title">Dr. Norman Borlaug</h1>
+    <!-- * Header -->
+    <header id="header" class="header">
+    </header>
+
+    <!-- * Main -->
+    <main id="main" class="main">
+        <div class="main--header">
+            <h1 id="title" class="main--header--title">Dr. Norman Borlaug</h1>
             <p>The man who saved a billion lives</p>
-        </header>
-        <main>
-            <div id="img-div">
-                <figure id="img-figure">
-                    <img id="image" src="https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg"
-                        alt="dr-norman-borlaug-image">
-                    <figcaption id="img-caption">Dr. Norman Borlaug, third from the left, trains biologists in Mexico on
-                        how to increase wheat yields - part of his life-long war on hunger.</figcaption>
+        </div>
+        <div class="main--main">
+            <div id="img-div" class="main--main--img-div">
+                <figure id="img-figure" class="main--main--img-div--img-figure">
+                    <img id="image" class="main--main--img-div--img-figure--image" src="public/images/dr-norman-borlaug--scene-img.jpg" alt="dr-norman-borlaug--scene-image">
+                    <figcaption id="img-caption" class="main--main--img-div--img-figure--img-caption">
+                        Dr. Norman Borlaug, third from the left, trains biologists in Mexico on
+                        how to increase wheat yields - part of his life-long war on hunger.
+                    </figcaption>
                 </figure>
             </div>
-            <div id="tribute-info">
+            <div id="tribute-info" class="main--main--tribute-info">
                 <h2>Here's a time line of Dr. Borlaug's life:</h2>
                 <ul>
                     <li><strong>1914</strong> - Born in Cresco, Iowa</li>
@@ -84,21 +93,43 @@
                     <li><strong>2009</strong> - dies at the age of 95.</li>
                 </ul>
             </div>
-            <div id="quote">
-                <q id="quote-line">Borlaug's life and achievement are testimony to the far-reaching contribution that one man's
-                    towering intellect, persistence and scientific vision can make to human peace and progress.</q>
-                <p id="quotee">
+            <div id="quote" class="main--main--quote">
+                <q class="main--main--quote--quote-line">Borlaug's life and achievement are testimony to the far-reaching contribution that one man's
+                    towering intellect, persistence and scientific vision can make to human peace and progress.
+                </q>
+                <p class="main--main--quote--quotee">
                     -- Indian Prime Minister Manmohan Singh
                 </p>
             </div>
-        </main>
-        <footer>
-            <h2>If you have time, you should read more about this incredible human being on his <a id="tribute-link"
-                    href="https://en.wikipedia.org/wiki/Norman_Borlaug" target="_blank">Wikipedia entry</a>.</h2>
-        </footer>
-    </section>
-    
-    <script id="project-macros-script" src="../../../../assets/project-macros/project-macros.js"></script>
+        </div>
+        <div class="main--footer">
+            <h2>If you have time, you should read more about this incredible human being on his <a id="tribute-link" class="main--footer--tribute-link" href="https://en.wikipedia.org/wiki/Norman_Borlaug" target="_blank">Wikipedia entry</a>.</h2>
+        </div>
+    </main>
+
+    <!-- * Footer -->
+    <footer id="footer" class="footer">
+    </footer>
+
+    <!-- * Attribution -->
+    <div id="attribution" class="attribution">
+        <p>Challenge by <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page" target="_blank">freeCodeCamp</a></p>
+        <p>Coded by <a href="https://github.com/kolehiyolo" target="_blank">Tristan Sean Paul Cinco</a></p>
+    </div>
+
+    <!-- * Scripts -->
+    <div id="scripts" class="scripts">
+        <!-- * Data/Variables -->
+        <!-- These are scripts that set up variables either as placeholders or as client-side variables -->
+        <!-- ! No scripts for this project -->
+
+        <!-- * Active Scripts -->
+        <!-- These are scripts that set event-listeners, module-builders, and client-side javascript actions -->
+        <!-- ! No scripts for this project -->
+
+        <!-- * freeCodeCamp Testing Script -->
+        <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+    </div>
 </body>
 
 </html>

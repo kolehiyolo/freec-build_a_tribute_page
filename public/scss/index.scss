@@ -18,18 +18,113 @@ html {
     * {
         font-family: var(--font--sans-serif);
         color: var(--color--text);
+        // font-weight: 400;
     }
 
     // * Body
     body {
+        // * Main
         min-height: 100vh;
+
+        // * Font
+        text-align: center;
+        line-height: 1.5;
 
         // * Header
         @import "../../public/scss/modules/macro/header.scss";
 
         // * Main
-        main {
-            opacity: 1;
+        .main {
+            // * Main
+            border-radius: 5px;
+            margin: 25px 7.5px;
+            background-color: var(--color--background);
+
+            &--header {
+                padding: 30px 15px 15px;
+
+                &--title {
+                    // * Main
+                    margin: 0 0 15px;
+
+                    // * Font
+                    font-size: 2.5rem;
+                }
+            }
+
+            &--main {
+                padding: 0 15px 15px;
+
+                &--img-div {
+                    &--img-figure {
+                        padding: 10px;
+                        background-color: var(--color--background-light);
+
+                        &--image {
+                            max-width: 100%;
+                            margin: 0 auto 10px;
+                            display: block;
+                        }
+
+                        &--img-caption {}
+                    }
+                }
+
+                &--tribute-info {
+                    max-width: 600px;
+                    margin: 0 auto;
+                    padding-bottom: 30px;
+
+                    h2 {
+                        padding: 30px 0;
+                        font-size: 1.125rem;
+                    }
+
+                    ul {
+                        text-align: left;
+                        padding-left: 40px;
+
+                        li {
+                            margin: 20px 0;
+                        }
+                    }
+
+                }
+
+                &--quote {
+                    // * Main
+                    max-width: 600px;
+                    margin: 0 auto;
+                    padding: 0 25px;
+
+                    // * Font
+                    text-align: left;
+                    font-style: italic;
+
+                    &--quote-line {
+                    }
+
+                    &--quotee {
+                        margin: 15px 0 0;
+                    }
+                }
+            }
+
+            &--footer {
+                padding: 0 15px;
+
+                h2 {
+                    // * Main
+                    padding: 30px 0;
+
+                    // * Font
+                    font-size: 1.125rem;
+                }
+
+                &--tribute-link {
+                    color: var(--color--text-link);
+                }
+            }
         }
 
         // * Footer

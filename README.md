@@ -1,14 +1,9 @@
 # freeCodeCamp - Kolehiyolo's freeCodeCamp Projects
-Welcome! I am a budding coder and this is a collection of all my freeCodeCamp projects.
-
-In here you can see all of my project submissions assigned by freeCodeCamp that utilizes specific technologies and skills. I've compiled their links into this  little web app that sorts them by appropriate categories, but the projects themselves are hosted in their own individual repos.
+Welcome! I am a budding coder and this is my submission to the 'Build a Tribute Page' project from freeCodeCamp.
 
 ## Table of contents
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Project List](#project-list)
-    - [Responsive Web Design](#responsive-web-design)
-    - [JavaScript Algorithm and Data Structures](#javascript-algorithm-and-data-structures)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -19,102 +14,56 @@ In here you can see all of my project submissions assigned by freeCodeCamp that 
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
+### Summary
+The challenge doesn't really specify whether or not I should deviate from the design, but I chose not to alter anything at all to help polish my design observation skills. I find the content about Dr. Norman Borlaug to be truly fascinating and served as a powerful motivation for me.
 ### The challenge
 Users should be able to:
-- See my projects in a categorized setting
-- Get access to all links and related resources
-- Get insight into brief overviews of each project
-- Get access to links to my other projects/links outside of freeCodeCamp
-- See my freeCodeCamp certifications
-
-### Project List
-#### Responsive Web Design
-The projects under Responsive Web Design have sample CodePens where you can what product is expected, and as I understand, we're not really required to copy the samples to a tee. However, to fully stretch my coding prowess with HTML and CSS as well as to train my eye when observing minute design details such as responsive CSS changes, I decided to fully emulate the pages as seen.
-- Build a Tribute Page
-- Build a Survey Form
-- Build a Product Landing Page
-- Build a Technical Documentation Page
-- Build a Personal Portfolio Webpage
-
-#### JavaScript Algorithm and Data Structures
-The projects under JavaScript Algorithm and Data Structures are purely console-based and we were not expected to make visible pages. It's more about solving specific coding problems, which I enjoyed a lot, but I haven't finished the last 2 as of yet. I still haven't completed the remainder of the course yet so I wanted to postpone doing the actual projects. That being said, I still plan on making actual web pages that make use of the solutions in this Certification, such as a site that checks if a string is a Palindrome, etc. We'll see.
-- Palindrome Checker
-- Roman Numeral Converter
-- Caesars Cipher
-- Telephone Number Validator
-- Cash Register
-
+- See my submission to the project
+- Perfectly mimic the sample page from [CodePen](https://codepen.io/freeCodeCamp/full/zNqgVx)
+- Make sure to follow the user stories dictated by freeCodeCamp
+- Build it while ensuring accessibility and responsive-ness
 ### Screenshot
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+<img src="public/images/screenshots/full-screen-shot--width-360.png" alt="full-screen-shot--width-360" width="200"/>
+<img src="public/images/screenshots/full-screen-shot--width-1024.png" alt="full-screen-shot--width-1024" width="200"/>
+<img src="public/images/screenshots/full-screen-shot--width-1920.png" alt="full-screen-shot--width-1920" width="200"/>
 
 ### Links
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- freeCodeCamp Challenge: [freeCodeCamp | Build a Tribute Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)
+- Sample: [CodePen](https://codepen.io/freeCodeCamp/full/zNqgVx)
+- Solution URL: [GitHub Repo](https://github.com/kolehiyolo/freecodecamp--build_a_tribute_page)
+- Live Site URL (Static): [Kolehiyolo | freeCodeCamp | Build a Tribute Page (Static)](https://your-live-site-url.com)
+- Live Site URL: [Kolehiyolo | freeCodeCamp | Build a Tribute Page](https://your-live-site-url.com)
 
 ## My process
 ### Built with
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
+- HTML5
+- CSS5
+- SASS
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This project is where I really started getting into media-queries. It's been a while since I worked on this, but I remember dabbling with it for a while before really getting the desired results.
 
-To see how you can add code snippets, see below:
+I also remember having problem with the responsive-ness of the main image as it wasn't properly adjusting as you reduce the width. This is where I also started using an [eye-dropper extension](https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg) on Chrome to get all the right colors straight from the sample project.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+I did not, at all, look at the code behind the CodePen project and based all the measurements on looks. I also took great care in finding the minute changes during breakpoints.
 
 ### Continued development
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Since this project, I've picked up the great habit of using the eyedropper tool for really getting the right colors. I've also become more acquainted to media-queries and how margins work.
 
 ### Useful resources
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [ColorPick Eyedropper](https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg) - This helped me in getting exactly what colors to use.
 
 ## Author
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- LinkedIn - [@yourusername](https://www.twitter.com/yourusername)
-- GitHub - [@yourusername](https://www.twitter.com/yourusername)
-- YouTube - [@yourusername](https://www.twitter.com/yourusername)
-- Facebook - [@yourusername](https://www.twitter.com/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-- Instagram - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@kolehiyolo | Frontend Mentor](https://www.frontendmentor.io/profile/kolehiyolo)
+- LinkedIn - [@Tristan Sean Paul Cinco | LinkedIn](https://www.linkedin.com/in/tristan-sean-paul-cinco-8685061a1/)
+- GitHub - [@kolehiyolo | Github](https://github.com/kolehiyolo)
+- YouTube - [@Tristan Sean Paul Cinco | YouTube](https://www.youtube.com/channel/UCeQfdvq83XLp-eS4vbZZN8Q)
+- Facebook - [@Tristan Sean Paul Cinco | Facebook](https://www.facebook.com/tristanseanpaul.cinco.39/)
+- Twitter - [@kolehiyolo1221 | Twitter](https://twitter.com/kolehiyolo1221)
+- Instagram - [@kolehiyolo | Instagram](https://www.twitter.com/yourusername)
 
 ## Acknowledgments
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**

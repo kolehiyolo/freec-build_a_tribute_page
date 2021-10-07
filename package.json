@@ -1,7 +1,7 @@
 {
   "name": "freecodecamp--build_a_tribute_page",
   "version": "1.0.0",
-  "description": "Welcome! I am a budding coder and this is a collection of all my freeCodeCamp projects.",
+  "description": "Welcome! I am a budding coder and this is my submission to the 'Build a Tribute Page' project from freeCodeCamp.",
   "main": "app.js",
   "dependencies": {
     "body-parser": "^1.19.0",

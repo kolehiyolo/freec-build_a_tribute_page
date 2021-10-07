@@ -1,10 +1,11 @@
 # Front-end Style Guide
 ## Layout
 The designs were created to the following widths:
-- Mobile: 375px
+- Mobile: 460px
 - Desktop: 1440px
 ### Media Queries
-- Desktop: 1440px
+- Mobile: Below 460px
+- Desktop: Above 460px
 
 ## Colors
 ### Light
@@ -14,28 +15,14 @@ The designs were created to the following widths:
 - color-placeholder: rgba(0, 0, 0, 1);
 - color-error: rgba(211, 114, 24, 1);
 - color-primary: rgba(24, 158, 211, 1);
-
-### Dark
-- color-background: rgba(0, 0, 0, 1);
-- color-elements: rgba(0, 0, 0, 1);
-- color-text: rgba(255, 255, 255, 1);
-- color-placeholder: rgba(255, 255, 255, 1);
-- color-error: rgba(211, 114, 24, 1);
-- color-primary: rgba(24, 158, 211, 1);
-
 ## Typography
 ### Sizes
-- Homepage Items: 14px
-- Detail Page: 16px 
+- Root: 16px
+
 
 ### Fonts
-- Family: [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans)
-- Weights: 300, 600, 800
+- Family: [Arial](https://www.fonts.com/font/monotype/arial)
+- Weights: 400, 600
 
 ## Icons
-For the icons, you can use a font icon library. Don't worry if the icons that you choose don't look exactly like they do on the design.
-
-Some suggestions can be found below:
-- [Font Awesome](https://fontawesome.com)
-- [IcoMoon](https://icomoon.io)
-- [Ionicons](https://ionicons.com)
+No icons were used in this project

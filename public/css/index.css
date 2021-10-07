@@ -1,0 +1,98 @@
+:root {
+  font-size: 16px; }
+
+:root {
+  --font--sans-serif: Arial, Helvetica, sans-serif; }
+
+:root {
+  --color--background: rgba(238, 238, 238,1);
+  --color--background-light: rgba(255, 255, 255,1);
+  --color--text: rgba(0, 0, 0, 1);
+  --color--text-link: rgba(0, 0, 255,1); }
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */ }
+
+html {
+  min-height: 100vh; }
+  html * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; }
+  html * {
+    font-family: var(--font--sans-serif);
+    color: var(--color--text); }
+  html body {
+    min-height: 100vh;
+    text-align: center;
+    line-height: 1.5; }
+    html body .header:hover {
+      opacity: 1; }
+    html body .main {
+      border-radius: 5px;
+      margin: 25px 7.5px;
+      background-color: var(--color--background); }
+      html body .main--header {
+        padding: 30px 15px 15px; }
+        html body .main--header--title {
+          margin: 0 0 15px;
+          font-size: 2.5rem; }
+      html body .main--main {
+        padding: 0 15px 15px; }
+        html body .main--main--img-div--img-figure {
+          padding: 10px;
+          background-color: var(--color--background-light); }
+          html body .main--main--img-div--img-figure--image {
+            max-width: 100%;
+            margin: 0 auto 10px;
+            display: block; }
+        html body .main--main--tribute-info {
+          max-width: 600px;
+          margin: 0 auto;
+          padding-bottom: 30px; }
+          html body .main--main--tribute-info h2 {
+            padding: 30px 0;
+            font-size: 1.125rem; }
+          html body .main--main--tribute-info ul {
+            text-align: left;
+            padding-left: 40px; }
+            html body .main--main--tribute-info ul li {
+              margin: 20px 0; }
+        html body .main--main--quote {
+          max-width: 600px;
+          margin: 0 auto;
+          padding: 0 25px;
+          text-align: left;
+          font-style: italic; }
+          html body .main--main--quote--quotee {
+            margin: 15px 0 0; }
+      html body .main--footer {
+        padding: 0 15px; }
+        html body .main--footer h2 {
+          padding: 30px 0;
+          font-size: 1.125rem; }
+        html body .main--footer--tribute-link {
+          color: var(--color--text-link); }
+    html body .footer {
+      opacity: 1; }
+    html body .attribution {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.5rem;
+      padding: 20px;
+      position: absolute;
+      z-index: -1;
+      opacity: 0;
+      top: 0; }
+
+@media (max-width: 460px) {
+  html body .main {
+    margin: 0; }
+    html body .main--header--title {
+      font-size: 2.1875rem; }
+    html body .main--main--img-div--img-figure--img-caption {
+      font-size: 14px;
+      font-size: 0.875rem; } }
